@@ -12,7 +12,7 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use("/", mapsRouting);
 const PORT = process.env.PORT;
-app.listen(8080, (err) => {
+app.listen(PORT, (err) => {
   if (err) console.log(err);
   console.log("work");
 });
