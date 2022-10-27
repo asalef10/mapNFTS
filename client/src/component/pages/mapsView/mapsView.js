@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
-import useMaps from "../../hook/useMaps";
+import useMaps from "../../../hook/useMaps";
 import { MapContainer, TileLayer, Polygon } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import { useWeb3React } from "@web3-react/core";
-import Badge from "../fetchers/badge";
+import Badge from "../../fetchers/badge";
 import { useHistory } from "react-router-dom";
-import Spinner from "../fetchers/spinner";
+import Spinner from "../../fetchers/spinner";
 
 const center = [40.63463151377654, -97.89969605983609];
 const MapsView = ({ addressWallet, isCanBuy, setIsCanBuy }) => {
