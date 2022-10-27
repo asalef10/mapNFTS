@@ -1,0 +1,38 @@
+[
+	{
+		"id" : 1,
+		"lat" : -87.359296,
+		"lon" : 35.00118,
+		"locationId" : 1
+	},
+	{
+		"id" : 2,
+		"lat" : -85.606675,
+		"lon" : 34.984749,
+		"locationId" : 1
+	},
+	{
+		"id" : 3,
+		"lat" : -109,
+		"lon" : 37,
+		"locationId" : 1
+	},
+	{
+		"id" : 4,
+		"lat" : -94,
+		"lon" : 37,
+		"locationId" : 1
+	},
+	{
+		"id" : 5,
+		"lat" : -123,
+		"lon" : 42,
+		"locationId" : 1
+	},
+	{
+		"id" : 6,
+		"lat" : -108,
+		"lon" : 41,
+		"locationId" : 1
+	}
+]

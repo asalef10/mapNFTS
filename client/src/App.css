@@ -1,0 +1,30 @@
+.leaflet-container {
+  width: 100vw;
+  height: 100vh;
+}
+#showColor {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  margin-left: 117px;
+}
+.text {
+  opacity: 0.1;
+}
+#logoEarth{
+  height: 1px;
+  opacity: 0.5;
+    float: right;
+    display: flex;
+    /* justify-content: space-evenly; */
+    flex-direction: column;
+    width: 27%;
+
+
+}
+#metaMaskButton{
+  /* float: right; */
+}
+#gameScreen {
+  display: none;
+}
